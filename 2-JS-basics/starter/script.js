@@ -44,6 +44,7 @@ console.log(firstName + " " + lastName);
 */
 
 // math operators
+/*
 const now = 2019;
 const yearJohn = 1990;
 const yearMark = 1988;
@@ -64,3 +65,25 @@ console.log(johnOlder);
 // typeof operator
 console.log(typeof johnOlder);
 console.log(typeof ageJohn);
+*/
+
+// operators precedence
+const now = 2019;
+const yearJohn = 1988;
+const yearMark = 1990;
+const fullAge = 18;
+
+// multiple operators
+let isFullAge = now - yearJohn >= fullAge;
+console.log(isFullAge);
+
+//grouping
+let ageJohn = now - yearJohn;
+let ageMark = now - yearMark;
+let average = (ageJohn + ageMark) / 2;
+console.log(average);
+
+//multiple assignments
+let x, y;
+x = y = (3 + 5) * 4 - 6;
+console.log(x, y);
