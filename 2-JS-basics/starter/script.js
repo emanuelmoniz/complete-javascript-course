@@ -128,6 +128,7 @@ if (isMarried) {
 }
 */
 
+/*
 var johnMass, johnHeight, johnBMI, markMass, markHeight, markBMI;
 johnMass = 85;
 johnHeight = 1.8;
@@ -142,4 +143,15 @@ if (markBMI > johnBMI) {
 } else {
   console.log("Is Mark's BMI lower than John's?");
 }
+*/
 
+var firstName = "John";
+var age = 21;
+
+if (age < 13) {
+  console.log(firstName + " is a boy.");
+} else if (age >= 13 && age < 20) {
+  console.log(firstName + " is a teenager.");
+} else {
+  console.log(firstName + " is a man.");
+}
