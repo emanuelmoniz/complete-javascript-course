@@ -159,3 +159,30 @@ if (age < 13) {
   console.log(firstName + " is a man.");
 }
 */
+
+/*
+var firstName = "john";
+var age = 16;
+
+age >= 18 ? console.log(firstName + " drinks beer.") : console.log(firstName + " drinks juice.");
+
+var drink = age >= 18 ? "beer" : "juice";
+console.log(firstName + " drinks " + drink);
+
+var job = "driver"
+
+switch (job) {
+  case "teacher":
+    console.log(firstName + " teach kids.");
+    break;
+  case "driver":
+    console.log(firstName + " drives an uber in lisbon.");
+    break;
+  case "designer":
+    console.log(firstName + " designs beautiful.");
+    break;
+  default:
+    console.log(firstName + " does something else.");
+    break;
+}
+*/
