@@ -144,8 +144,8 @@ johnHeight = 1.8;
 markMass = 76;
 markHeight = 1.7;
 
-johnBMI = johnMass / johnHeight * johnHeight;
-markBMI = markMass / markHeight * markHeight;
+johnBMI = johnMass / (johnHeight * johnHeight);
+markBMI = markMass / (markHeight * markHeight);
 
 markHigerBMI = markBMI > johnBMI;
 
