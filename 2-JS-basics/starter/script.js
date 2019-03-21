@@ -67,6 +67,8 @@ console.log(typeof johnOlder);
 console.log(typeof ageJohn);
 */
 
+
+/*
 // operators precedence
 const now = 2019;
 const yearJohn = 1988;
@@ -87,3 +89,57 @@ console.log(average);
 let x, y;
 x = y = (3 + 5) * 4 - 6;
 console.log(x, y);
+*/
+
+//1st ex
+/*
+var johnMass, johnHeight, johnBMI, markMass, markHeight, markBMI, markHigerBMI;
+johnMass = 85;
+johnHeight = 1.8;
+markMass = 76;
+markHeight = 1.7;
+
+johnBMI = johnMass / (johnHeight * johnHeight);
+markBMI = markMass / (markHeight * markHeight);
+
+markHigerBMI = markBMI > johnBMI;
+
+console.log("Is Mark's BMI higher than John's? " + markHigerBMI);
+*/
+
+//if statemnts
+
+/*
+var firstName = "John";
+var civilStatus = "married";
+
+if (civilStatus === "married") {
+  console.log(firstName + " is married");
+} else {
+  console.log(firstName + " will marrie soon.");
+}
+
+var isMarried = civilStatus === "married";
+
+if (isMarried) {
+  console.log(firstName + " is married");
+} else {
+  console.log(firstName + " will marrie soon.");
+}
+*/
+
+var johnMass, johnHeight, johnBMI, markMass, markHeight, markBMI;
+johnMass = 85;
+johnHeight = 1.8;
+markMass = 50;
+markHeight = 1.7;
+
+johnBMI = johnMass / (johnHeight * johnHeight);
+markBMI = markMass / (markHeight * markHeight);
+
+if (markBMI > johnBMI) {
+  console.log("Is Mark's BMI higher than John's?");
+} else {
+  console.log("Is Mark's BMI lower than John's?");
+}
+
